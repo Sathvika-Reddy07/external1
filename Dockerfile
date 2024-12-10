@@ -30,7 +30,7 @@ COPY . .
 
 # Expose the application port.
 
-EXPOSE 3000
+EXPOSE 3005
 
 
 
