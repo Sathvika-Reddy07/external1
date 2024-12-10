@@ -5,7 +5,7 @@ pipeline {
     stage('build') {
       steps {
         script {
-          bat 'docker-build -t my-nodejs-app ."
+          bat "docker-build -t my-nodejs-app ."
         }
       }
     }
@@ -19,7 +19,7 @@ pipeline {
     stage('deploy') {
       steps {
         script {
-          echo 'Deploying application..."
+          echo "Deploying application..."
         }
       }
     }
